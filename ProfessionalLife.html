@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+            <link rel="manifest" href="/site.webmanifest">
+         <title>Hannah Riggs</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {font-family: 'Domine', serif;}
+            .heading{ display: flex;
+                padding-right: 250px;
+                color:azure}
+            .middle {display: flex;
+                flex-direction: row;
+                font-size: larger;
+                padding-top: 20px;}
+            .para {display: flex;
+                margin-left: 50px;
+            font-size: 25px;}
+            .img {display: flex;
+                margin-left: 30px;
+                margin-right: 50px;
+            margin-top: 28px;}
+            ul {list-style-type: none;
+                border-style: solid;
+                display: inline-block;
+                padding: 0px;
+                margin-top: 0px ;
+            }
+            li a{width: 150px;
+                height: 35px;
+                background-color: black;
+                color: azure;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+            }
+            li a:hover{
+                background-color: #0DD9C4;
+                color: black;
+            }
+            li a.active {background-color:#05F2F2;
+                color: black;
+            }
+            li {float: left ;}
+            .top{display: flex;
+                flex-direction: row-reverse;
+                border-style: solid;
+                height:75px ;
+                background-color:black ;}
+
+            body{background-color: #05F2F2;}
+            .resume{ margin-top: 200px;}
+        @media screen and (max-width: 1200px) {
+            .heading{padding-right: 200px;
+            }
+        }
+        @media screen and (max-width: 992px) {
+            .heading{padding-right: 75px;
+
+            }
+           
+        }
+        @media screen and (max-width: 850px) {
+            .heading{padding-right: 25px;
+            }
+            .middle{flex-direction: column-reverse;
+            padding-left: 20px;}
+            .paragraph{text-align: center;}
+            li a {width: 125px;}
+        .resume{height: 600px;}}
+
+        @media screen and (max-width: 768px) {
+            .heading{padding-right: 20px;
+              font-size: x-large;  
+              padding-top: 4px;
+            }
+            .middle{flex-direction: column-reverse;
+            padding-left: 20px;}
+            .paragraph{text-align: center;}
+            li a {width: 100px;}
+            .resume{height: 400px;}
+        }
+        @media screen and (max-width: 600px) {
+            .heading{padding-right: 10px;
+            }
+            li a{width: 100px;}
+            .resume{height: 400px;}
+        }
+        
+        </style>
+    </head>
+
+<body>
+    <div class="top">
+    <ul>
+        <li><a 
+            href="homework1.html">About Me</a></li>
+        <li><a href="PersonalLife.html">Personal Life</a></li>
+        <li><a class="active" href="ProfessionalLife.html">Professional Life</a></li>
+    </ul>
+    <div><h1 class="heading">Professional Life</h1></div></div>
+   <div class="middle"> 
+    <div class="para"><p>Previously, I worked at Chick-Fil-A from August 2020 to September 2021.<br> <br>
+       In 2021, I also worked an internship at 
+        <a href="https://rpaalliance.com/" target="_blank">Richmond Performing Arts Aliance.</a><br> <br>
+        Currently, I work at Elon University in the Gear Room and as a Broadcast Engineer. <br> <br>Outside of paid work, I work on student run sets
+        most weekends. <br> <br>Some of my favorite film sets include : Cinelon's "Confessions of a Productive Mind" and "Last Date", 
+        Isacc Kunesh's BFA "Extended Realities", and my FreshTV project "Two Peas in a Pod".</div>
+    <div class="img"></p><img src="IMG_7502.jpg" height="400px" alt=""></div></div>
+    <div class="resume">
+        <center><img src="Screenshot 2023-02-10 at 3.04.57 PM.png" height="1000px" ></center>
+    </div>
+
+</body>
+
+</html>
